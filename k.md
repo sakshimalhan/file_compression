@@ -1,3 +1,4 @@
+
 # Huffman Coding
 <a id="top"></a>
 
@@ -20,27 +21,11 @@ Huffman coding is a lossless data compression algorithm. In this algorithm, a va
 * With the min_heap,build a binary tree. Extract two nodes with the minimum frequency from the min heap.Create a new internal node with a frequency equal to the sum of the two nodes frequencies.
 
 
-* Traverse the tree formed starting from the root. Maintain a dictionary and a string. While moving to the left child, write 0 to the string. While moving to the right child, write 1 to the string. Add dtring to the dictionary when a leaf node is encountered. Do it rescursively.
+* Traverse the tree formed starting from the root. Maintain a dictionary and a string. While moving to the left child, write 0 to the string. While moving to the right child, write 1 to the string. Add string to the dictionary when a leaf node is encountered. Do it rescursively.
 
 
 * This way we have unique prefix free codes for every character. Repalce each character with its code.
 
 ## Try it!
-
-
-* Clone the repository to your local system using the commands below.
-```
-git clone https://github.com/sakshimalhan/huffman_coding
-cd huffman_coding
-```
-
-* Run the python interpreter.
-```
-python main.py
-```
-* Give the path of the file to be compressed as input.
-
-
-* Check the output files(printed on your console).
 
 
